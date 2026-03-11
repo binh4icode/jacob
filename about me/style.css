@@ -1,0 +1,39 @@
+.aboutmepage {
+    background-color: rgb(16, 48, 193);
+    color: blueviolet;
+    font-weight:bolder;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstpage{
+    background-color: blueviolet;
+    color: blue;
+    font-weight:bolder;
+}
+
+    .border1{
+        border: 3px solid rgb(65, 65, 193)
+    }
+
+
+    table, th, td{
+        border: 2px solid red
+    }
+
+    ul, ol{
+        border: 2px solid red;
+    }
+
+    table, th, td{
+        border:2px solid purple ;
+    }
+.funny{
+    background-color: rgb(43, 217, 226);
+    color: rgba(187, 0, 255, 0.682);
+    border:2px solid blue ;
+    margin: 20px;
+    padding:20px;
+}
+
+    
