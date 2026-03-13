@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="script" href="main.js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changecolor(){
+            document.body.style.backgroundColor = "blue";
+        }
+
+        function ShowDate(){
+            document.getElementById("showDate").innerHTML = Date();
+
+        }
+
+        function addimage(){
+            const addedimage = document.createElement("img");
+            addedimage.src = "otomon_8.webp";
+            addedimage.width = 300;
+
+            document.getElementById("imageinsert").appendChild(addedimage);
+        }
+
+        function deleteimage(){
+            const image = document.getElementById("imageinsert");
+            if(image){
+                image.remove();
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+    <button id="buttons" onclick="changecolor()">Slap me</button>
+    <br/>
+    <button onclick="ShowDate()">Show Date</button>
+    <p id="showDate">Click the buttion to show the date</p>
+
+    <button onclick="addimage()">ADD IMAGE</button>
+
+    <button onclick="addimage()"></button>
+    <div id="imageinsert"></div>
+</body>
+</html>

@@ -4,8 +4,8 @@ body{
 
 
 @keyframes movment{
-    from{background-color: blue; left: 10px; top: 10px;px}
-    to{background-color: rgba(141, 23, 135, 0.677); left: 1000px; top: 1000px;}
+    from{background-color: blue; left: 10px; top: 10pxpx}
+    to{background-color: rgb(141, 23, 135, 0.677); left: 1000px; top: 1000px;}
 
 }
 
